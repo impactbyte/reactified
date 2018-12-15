@@ -6,17 +6,32 @@ import QUOTES from "./data/quotes.json"
 import random from "./helpers/random"
 
 class App extends Component {
-  render() {
+  constructor() {
+    super()
     const chosenInt = random.getRandomInt(0, QUOTES.length - 1)
     const chosenQuote = QUOTES[chosenInt]
+    this.state = {
+      quote: chosenQuote
+    }
+  }
 
+  getRandomQuote = () => {
+    const chosenInt = random.getRandomInt(0, QUOTES.length - 1)
+    const chosenQuote = QUOTES[chosenInt]
+    this.setState({
+      quote: chosenQuote
+    })
+  }
+
+  render() {
     return (
       <div className="center">
         <h1>RandomQuote</h1>
+        <button onClick={this.getRandomQuote}>Randomize</button>
         <div>
-          <p>{chosenQuote.text}</p>
+          <p>{this.state.quote.text}</p>
           <p>
-            — <i>{chosenQuote.author}</i>
+            — <i>{this.state.quote.author}</i>
           </p>
         </div>
       </div>

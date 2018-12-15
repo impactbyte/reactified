@@ -33,5 +33,12 @@
     "author": "Rahman Fadhil",
     "title": "Software Engineer",
     "company": "Impact Byte"
+  },
+  {
+    "id": 5,
+    "text": "Belajar tiap hari, karena bola adalah teman.",
+    "author": "Adam Fadly",
+    "title": "Software Engineer",
+    "company": "Kitabisa.com"
   }
 ]
