@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "text": "Do or do not. There is no try.",
+    "author": "Yoda",
+    "title": "Grand Master",
+    "company": "Jedi"
+  },
+  {
+    "id": 1,
+    "text": "Sometimes you gotta run before you can walk.",
+    "author": "Tony Stark",
+    "title": "Former CEO",
+    "company": "Stark Industries"
+  },
+  {
+    "id": 2,
+    "text": "Find the leverage in the world so you can be truly lazy.",
+    "author": "Larry Page",
+    "title": "Co-Founder",
+    "company": "Google"
+  },
+  {
+    "id": 3,
+    "text": "Sometimes life hits you in the head with a brick. Don't lose faith",
+    "author": "Steve Jobs",
+    "title": "Co-Founder",
+    "company": "Apple"
+  }
+]
