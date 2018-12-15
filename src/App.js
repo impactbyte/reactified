@@ -1,15 +1,21 @@
 import React, { Component } from "react"
 import "./App.css"
 
+import QUOTES from "./data/quotes.json"
+
 class App extends Component {
   render() {
     return (
       <div className="center">
         <h1>RandomQuote</h1>
-        <div>
-          <p>"Ngapain sekolah kalo udah bisa kerja"</p>
-          <p>— Rahman Fadhil</p>
-        </div>
+        {QUOTES.map(quote => {
+          return (
+            <div key={quote.id}>
+              <p>{quote.text}</p>
+              <p>— {quote.author}</p>
+            </div>
+          )
+        })}
       </div>
     )
   }

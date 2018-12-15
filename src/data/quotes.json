@@ -26,5 +26,12 @@
     "author": "Steve Jobs",
     "title": "Co-Founder",
     "company": "Apple"
+  },
+  {
+    "id": 4,
+    "text": "Ngapain sekolah kalo udah bisa kerja",
+    "author": "Rahman Fadhil",
+    "title": "Software Engineer",
+    "company": "Impact Byte"
   }
 ]
